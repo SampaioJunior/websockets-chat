@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>websockets-chat</title>
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+		<div class="chat">
+			<form id="name-form">
+				<input type="text" class="chat__name-field" placeholder="Coloque o seu Nome..." maxlength="15" minlength="1">
+			</form>
+			<div class="chat__text-field">
+				<!-- Messagem aparece aqui -->
+			</div>
+			<form id="input-form">
+				<input type="text" class="chat__input-field" placeholder="Mensagem..." maxlength="256" minlength="1">
+			</form>
+		</div>
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script src="socket.io/socket.io.js"></script>
+	<script src="script.js"></script>
+	<script src="commands.js"></script>
+	</body>
+</html>

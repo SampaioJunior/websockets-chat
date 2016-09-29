@@ -1,0 +1,10 @@
+{
+  "name": "websockets-chat",
+  "version": "0.8.0",
+  "description": "Chat com sockte.io",
+  "dependencies": {
+    "express": "^4.10.2",
+    "sanitize-html": "^1.11.4",
+    "socket.io": "^1.4.5"
+  }
+}
