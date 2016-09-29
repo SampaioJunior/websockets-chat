@@ -4,7 +4,7 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var sanitize = require('sanitize-html');
 
-http.listen("192.168.1.100",8080);
+http.listen(8080,"192.168.1.100");
 
 // Usado para criar um nome de socket único para o usuario
 var id = 1;
